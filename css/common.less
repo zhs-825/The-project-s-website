@@ -1,0 +1,340 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 999;
+  background-color: #000;
+
+  .wrap {
+    height: 50px;
+
+    .logo {
+      width: 50px;
+      float: left;
+
+      img {
+        height: 44px;
+        width: 44px;
+        margin-top: 3px;
+      }
+    }
+
+    >ul {
+      margin-left: 10px;
+      line-height: 50px;
+
+      >li {
+        float: left;
+        position: relative;
+
+        .li-first {
+          margin-left: 10px;
+        }
+
+
+        >a {
+          display: block;
+          padding: 0 30px;
+          font-size: 14px;
+          color: #c3c3c3;
+        }
+
+        ul {
+          position: absolute;
+          display: none;
+          width: 100%;
+          height: 150px;
+          left: 50%;
+          margin-left: -44px;
+          text-align: center;
+          border: 1px solid #eee;
+          background-color: white;
+          
+          li {
+            width: 100%;
+            height: 50px;
+            border-bottom: 1px solid #C3C3C3;
+            &:hover a{
+              background-color: rgb(235, 230, 230);
+            }
+            a {
+              display: block;
+              width: 100%;
+              height: 100%;
+              font-size: 14px;
+              color: #444444;
+            }
+          }
+        }
+        .new {
+          width: 150px;
+          margin-left: -75px;
+        }
+      }
+    }
+
+    .rightBar {
+      float: right;
+      line-height: 50px;
+      color: #fff;
+      cursor: pointer;
+      height: 150px;
+      width: 120px;
+     
+      font-size:14px;
+        .rightBar-top{
+          position: absolute;
+          width: 120px;
+          height:50px;
+          i {
+            display: block;
+            float: left;
+            width: 50px;
+            height: 50px;
+            font-size: 30px;
+            color: #aaa;
+          }
+  
+          div{
+            float: left;
+          }
+        }
+        .rightBar-bottom{
+          position: absolute;
+          width: 120px;
+          height:100px;
+          margin-top:50px;
+          display:none;
+          div{
+            width:120px;
+            height:50px;
+            text-align: center;
+            line-height:50px;
+            border-bottom: 1px solid #eee;
+            background-color:white;
+            color:black;
+            
+          }
+        }
+
+    }
+  }
+
+
+}
+
+
+
+// 广告
+.inte-logo {
+  margin-top: 50px;
+  height: 90px;
+  background-color: #eeeeee;
+
+  .wrap img {
+    float: right;
+    padding: 10px 0px;
+  }
+}
+
+// 底部通栏
+.footerTop {
+  width: 100%;
+  height: 288px;
+  background-color: #101010;
+
+
+  .content {
+    width: 1210px;
+    height: 288px;
+    background: url('../img/官网专属图片/ia_100000053.jpg');
+    position: relative;
+      a{
+        position: absolute;  
+        width:376px;
+        height: 100px;  
+      }
+      a:nth-child(1){        
+        margin-left:445px;          
+      }
+      a:nth-child(2){ 
+        margin-left:820px;  
+      }
+      a:nth-child(3){
+        position: absolute;
+        width:342px;
+        height: 186px;   
+        margin-top:100px;
+      }
+    
+  }
+}
+
+
+.footerBar {
+  width: 100%;
+  height: 45px;
+  background-color: #eeeeee;
+  font-size: 14px;
+
+  .wrap ul {
+    // padding: 0 15px;
+    height: 45px;
+    float: left;
+    li {
+      margin: 3.5px 0;
+    }
+  }
+
+  li {
+    float: left;
+    padding: 12px 10px 12px 0;
+  }
+
+  .rightBar {
+    display: block;
+    // width: 150px;
+    font-size: 14px;
+    color: #ffff;
+    float: right;
+    padding: 13px 0;
+    position: relative;
+  }
+}
+
+.footerBooton {
+  .content-1 {
+    height: 54px;
+    width: 100%;
+    background-color: #7c7c7c;
+    border-bottom: solid 2px #5a5959;
+
+    li {
+      float: left;
+      margin-right: 14px;
+      padding-top: 11px;
+
+      a {
+        color: #eeeeee;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }             
+  }
+  .content-2 {
+    padding-top: 20px; 
+    height: 160px;
+    background-color: #979696;
+    line-height: 19px;
+    color: #0c0c0c;           
+    
+    a {
+      color: #ca3d50; 
+    }
+
+  }
+}
+
+
+// 自定义 
+.footerBar .wrap .rightBar {
+  position: relative;
+  padding-top: 2.5px;
+  height: 40px;
+  
+  .country {
+      display: block;
+      line-height: 40px;
+      .drop-down-box{
+          float: right;
+           width: 14px;
+           margin: 14px 26px 18px 0;
+           height: 8px;
+           background: url(../img/huge-benefits/ia_200000137.jpg) 0 -36px ;       
+      }
+  }
+  .countrylist {
+      position: absolute;
+      bottom: 40px;
+      right: 0;
+      height: 270px;
+      width:250px;
+      padding: 0;
+      background-color: #fff;
+      overflow:auto;
+      display: none;
+      li {
+          font-size: 14px;
+          line-height: 25px;
+          padding: 0;
+          width: 233px;
+          margin: 0;
+          
+          a {
+             color: #444;
+             display: block;
+             height: 100%;
+             width: 100%;
+             padding-left:10px;
+          }
+      }
+  }
+}
+// 侧边栏
+.sidebar {
+  .sidebarHb {
+      position: fixed;
+      right: 0;
+      bottom:200px;
+      z-index: 1;
+
+      // position: relative;
+      .btn1{
+          width: 26px;
+          height: 26px;
+          position: absolute;
+          left: -26px;
+          top:14px;
+          background: url(../img/huge-benefits/ia_200000135.jpg) 0 -41px  ;
+      }
+      ul {
+        width: 213px;
+        height: 241px; 
+        padding: 0 13px;
+        background: url(../img/huge-benefits/ia_200000134.jpg) ;  
+        
+       li {
+           height: 60px;
+           a {
+               display: block;
+               width: 100%;
+               height: 100%;
+           }
+       }
+      }
+  }
+  .sidebarHd {
+      background: url(../img/huge-benefits/ia_200000116.png) ;  
+      width: 50px;
+      height: 50px;
+      background-size:50px 50px;
+      position: fixed;
+      bottom: 22px;
+      right: 21px;
+      // cursor:pointer;//鼠标样式
+      display: none;
+    }
+    
+}
+
+// 底部a标签样式
+.footerBooton .content-2 .p-1 a {
+  text-decoration: underline;
+}

@@ -1,0 +1,399 @@
+.banner {
+  width: 100%;
+  position: relative;
+
+  .swiper-wrapper {
+    position: relative;
+    margin: 0 auto;
+
+
+    .swiper-slide {
+      position: absolute;
+      display: none;
+      margin: 0 auto;
+
+      &:first-child {
+        display: block;
+      }
+
+      text-align: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .pagination {
+    position: absolute;
+    bottom: 18px;
+    left: 50%;
+
+    i {
+      float: left;
+      height: 9px;
+      width: 9px;
+      margin-right: 8px;
+      background-color: #cccccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn {
+      background-color: #0084c8;
+    }
+  }
+}
+
+.index-content {
+  height: 1144px;
+  background-color: #222222;
+  overflow: hidden;
+
+  .wrap {
+    width: 1211px;
+    height: 947px;
+    margin: 0 auto;
+    margin-top: 120px;
+    perspective: 600px;
+    overflow: hidden;
+
+    .left {
+      width: 598px;
+      height: 100%;
+      float: left;
+      position: relative;
+
+      .videos {
+        position: relative;
+        width: 100%;
+        height: 658px;
+        overflow: hidden;
+
+
+        .video1,
+        .video2 {
+
+          &:hover .icon {
+            display: block;
+          }
+        }
+
+
+        .icon {
+          position: absolute;
+          display: none;
+          width: 40px;
+          height: 40px;
+          background: url('../img/官网首页图片/X.jpg') no-repeat;
+          background-position: -308px -82px;
+          right: 0;
+          top: 80px;
+          z-index: 1000;
+          cursor: pointer;
+          transition: all .3s;
+
+          &:hover {
+            transform: rotate(180deg);
+          }
+        }
+
+        .swiper-slide {
+          position: absolute;
+          display: none;
+
+          &:hover {
+            transform: translateZ(6px);
+          }
+
+          &:first-child {
+            display: block;
+          }
+        }
+      }
+
+      .pagination {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+
+        i {
+          float: left;
+          height: 8px;
+          width: 8px;
+          margin-right: 8px;
+          background-color: #cccccc;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .btn {
+          background-color: #ce1125;
+        }
+      }
+    }
+
+    .left-bottom {
+      position: absolute;
+      bottom: 0;
+
+      &:hover {
+        transform: translateZ(6px);
+      }
+    }
+  }
+
+  .right {
+    width: 598px;
+    height: 100%;
+    float: right;
+    position: relative;
+    overflow: hidden;
+
+    .right-top {
+      position: relative;
+      width: 100%;
+      height: 321px;
+
+      .swiper-slide {
+        position: absolute;
+        display: none;
+
+        &:hover {
+          transform: translateZ(6px);
+        }
+
+        &:first-child {
+          display: block;
+        }
+      }
+
+      .pagination {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+
+        i {
+          float: left;
+          height: 8px;
+          width: 8px;
+          margin-right: 8px;
+          background-color: #cccccc;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+
+        .btn {
+          background-color: #ce1125;
+        }
+      }
+    }
+
+    .right-middle {
+      margin-top: 16px;
+
+      &:hover {
+        transform: translateZ(6px);
+      }
+    }
+
+    .right-bottom {
+      position: absolute;
+      bottom: 0;
+
+      &:hover {
+        transform: translateZ(6px);
+      }
+    }
+  }
+}
+
+.cats {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+
+  .wrap {
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 1000;
+    width: 1200px;
+    height: 100%;
+
+    .common {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 170px;
+      height: 100%;
+      line-height: 400px;
+      text-align: center;
+      cursor: pointer;
+
+      img {
+        width: 80px;
+        height: 80px;
+      }
+    }
+
+    .btn-right {
+      right: 0;
+      left: auto;
+    }
+
+    .swiper-container {
+      width: 860px;
+      height: 100%;
+      position: relative;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .swiper-wrapper {
+      width: 4000px;
+      height: 400px;
+      position: absolute;
+      left: 0;
+
+      .swiper-slide {
+        float: left;
+      }
+    }
+  }
+
+
+
+  .pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -234px;
+    z-index: 1001;
+
+    i {
+      float: left;
+      height: 32px;
+      width: 152px;
+      margin-right: 4px;
+      text-align: center;
+      line-height: 32px;
+      background-color: #2e2c2d;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    .btn {
+      background-color: #b4b4b4;
+      color: #444444;
+    }
+  }
+}
+
+.list {
+  padding: 70px 0 30px 0;
+  overflow: hidden;
+  clear: both;
+  background-color: #222222;
+
+  .wrap {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .ls {
+    clear: both;
+
+    .item {
+      width: 400px;
+      margin: 0 0 40px 0;
+      float: left;
+      overflow: hidden;
+      position: relative;
+
+      .icon {
+        height: 53px;
+        padding-left: 15px;
+      }
+
+      .config {
+        width: 360px;
+        margin: 0 auto;
+
+        h3 {
+          color: #dfdfdf;
+          font-size: 14px;
+          font-weight: normal;
+          padding-top: 10px;
+          line-height: 150%;
+        }
+
+        .price {
+          font-size: 24px;
+          color: #ce1125;
+          padding: 20px 0;
+          overflow: hidden;
+          position: relative;
+
+          div {
+            float: left;
+          }
+
+          del {
+            float: right;
+            height: 24px;
+            line-height: 24px;
+            color: #666666;
+            font-size: 16px;
+            padding: 0 5px;
+          }
+
+          .buy {
+            padding: 2px 0;
+
+            a {
+              float: left;
+              margin-right: 15px;
+              font-size: 16px;
+              color: #dfdfdf;
+
+              img {
+                display: block;
+                border: none;
+              }
+            }
+          }
+        }
+
+        .gift {
+          margin-bottom: 20px;
+          height: 60px;
+        }
+
+        .wen {
+          font-size: 14px;
+          color: #dfdfdf;
+          height: 32px;
+        }
+      }
+    }
+  }
+}
+
+.more {
+  width: 100%;
+  height: 502px;
+  background: url(../img/官网首页图片/ia_200000129.jpg) no-repeat center center;
+
+  .wrap {
+    height: 100%;
+
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+}

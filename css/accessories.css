@@ -1,0 +1,162 @@
+.app {
+  width: 100%;
+  height: 9718px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+.app .banner {
+  background: url("../img/配件img/ia_100000077.jpg") center center;
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.app .title {
+  background: url("../img/配件img/ia_100000078.jpg") center center;
+  height: 172px;
+}
+.app .main {
+  overflow: hidden;
+}
+.app .main .left {
+  width: 590px;
+  float: left;
+}
+.app .main .left .item {
+  background: #fff;
+  width: 590px;
+  margin: 0 0 20px 0;
+  padding-bottom: 60px;
+  float: left;
+  overflow: hidden;
+}
+.app .main .left .item .image {
+  width: 590px;
+  height: 430px;
+  position: relative;
+  margin-bottom: 83px;
+}
+.app .main .left .item .image .ico {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.app .main .left .item .config {
+  width: 420px;
+  margin: 0 auto;
+}
+.app .main .left .item .config h4 {
+  color: #807C7D;
+  font-size: 16px;
+  font-weight: normal;
+}
+.app .main .left .item .config h2 {
+  color: #2d2d2d;
+  font-size: 32px;
+  font-weight: normal;
+  padding: 10px 0;
+  line-height: 100%;
+}
+.app .main .left .item .config p {
+  line-height: 150%;
+  padding: 20px 0 10px 0;
+  font-size: 16px;
+}
+.app .main .left .item .config .price {
+  font-size: 36px;
+  color: #ce1125;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.app .main .left .item .config .price del {
+  color: #666;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.app .main .left .item .config .buy {
+  display: block;
+}
+.app .main .left .item .config .buy a {
+  float: left;
+  margin-right: 20px;
+}
+.app .main .left .item .config .buy a img {
+  display: block;
+  border: none;
+}
+.app .main .right {
+  float: right;
+  width: 590px;
+}
+.app .main .right .item {
+  background: #fff;
+  width: 590px;
+  margin: 0 0 20px 0;
+  padding-bottom: 60px;
+  float: left;
+  overflow: hidden;
+}
+.app .main .right .item .image {
+  width: 590px;
+  height: 430px;
+  position: relative;
+  margin-bottom: 83px;
+}
+.app .main .right .item .image .ico {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.app .main .right .item .config {
+  width: 420px;
+  margin: 0 auto;
+}
+.app .main .right .item .config h4 {
+  color: #807C7D;
+  font-size: 16px;
+  font-weight: normal;
+}
+.app .main .right .item .config h2 {
+  color: #2d2d2d;
+  font-size: 32px;
+  font-weight: normal;
+  padding: 10px 0;
+  line-height: 100%;
+}
+.app .main .right .item .config p {
+  line-height: 150%;
+  padding: 20px 0 10px 0;
+  font-size: 16px;
+}
+.app .main .right .item .config .price {
+  font-size: 36px;
+  color: #ce1125;
+  padding: 20px 0;
+  overflow: hidden;
+}
+.app .main .right .item .config .price del {
+  color: #666;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.app .main .right .item .config .buy a {
+  float: left;
+  margin-right: 20px;
+}
+.app .main .right .item .config .buy a img {
+  display: block;
+  border: none;
+}
+.footer {
+  background: url(../img/配件img/ia_100000079.jpg) no-repeat center center #181B20;
+  height: 500px;
+}
+.footer .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer .wrap a {
+  display: block;
+  height: 500px;
+  width: 1200px;
+  position: relative;
+}

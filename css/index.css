@@ -1,0 +1,326 @@
+.banner {
+  width: 100%;
+  position: relative;
+}
+.banner .swiper-wrapper {
+  position: relative;
+  margin: 0 auto;
+}
+.banner .swiper-wrapper .swiper-slide {
+  position: absolute;
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .swiper-wrapper .swiper-slide:first-child {
+  display: block;
+}
+.banner .swiper-wrapper .swiper-slide img {
+  width: 100%;
+}
+.banner .pagination {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+}
+.banner .pagination i {
+  float: left;
+  height: 9px;
+  width: 9px;
+  margin-right: 8px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.banner .pagination .btn {
+  background-color: #0084c8;
+}
+.index-content {
+  height: 1144px;
+  background-color: #222222;
+  overflow: hidden;
+}
+.index-content .wrap {
+  width: 1211px;
+  height: 947px;
+  margin: 0 auto;
+  margin-top: 120px;
+  perspective: 600px;
+  overflow: hidden;
+}
+.index-content .wrap .left {
+  width: 598px;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.index-content .wrap .left .videos {
+  position: relative;
+  width: 100%;
+  height: 658px;
+  overflow: hidden;
+}
+.index-content .wrap .left .videos .video1:hover .icon,
+.index-content .wrap .left .videos .video2:hover .icon {
+  display: block;
+}
+.index-content .wrap .left .videos .icon {
+  position: absolute;
+  display: none;
+  width: 40px;
+  height: 40px;
+  background: url('../img/官网首页图片/X.jpg') no-repeat;
+  background-position: -308px -82px;
+  right: 0;
+  top: 80px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all .3s;
+}
+.index-content .wrap .left .videos .icon:hover {
+  transform: rotate(180deg);
+}
+.index-content .wrap .left .videos .swiper-slide {
+  position: absolute;
+  display: none;
+}
+.index-content .wrap .left .videos .swiper-slide:hover {
+  transform: translateZ(6px);
+}
+.index-content .wrap .left .videos .swiper-slide:first-child {
+  display: block;
+}
+.index-content .wrap .left .pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+}
+.index-content .wrap .left .pagination i {
+  float: left;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.index-content .wrap .left .pagination .btn {
+  background-color: #ce1125;
+}
+.index-content .wrap .left-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.index-content .wrap .left-bottom:hover {
+  transform: translateZ(6px);
+}
+.index-content .right {
+  width: 598px;
+  height: 100%;
+  float: right;
+  position: relative;
+  overflow: hidden;
+}
+.index-content .right .right-top {
+  position: relative;
+  width: 100%;
+  height: 321px;
+}
+.index-content .right .right-top .swiper-slide {
+  position: absolute;
+  display: none;
+}
+.index-content .right .right-top .swiper-slide:hover {
+  transform: translateZ(6px);
+}
+.index-content .right .right-top .swiper-slide:first-child {
+  display: block;
+}
+.index-content .right .right-top .pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+}
+.index-content .right .right-top .pagination i {
+  float: left;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.index-content .right .right-top .pagination .btn {
+  background-color: #ce1125;
+}
+.index-content .right .right-middle {
+  margin-top: 16px;
+}
+.index-content .right .right-middle:hover {
+  transform: translateZ(6px);
+}
+.index-content .right .right-bottom {
+  position: absolute;
+  bottom: 0;
+}
+.index-content .right .right-bottom:hover {
+  transform: translateZ(6px);
+}
+.cats {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.cats .wrap {
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  z-index: 1000;
+  width: 1200px;
+  height: 100%;
+}
+.cats .wrap .common {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 170px;
+  height: 100%;
+  line-height: 400px;
+  text-align: center;
+  cursor: pointer;
+}
+.cats .wrap .common img {
+  width: 80px;
+  height: 80px;
+}
+.cats .wrap .btn-right {
+  right: 0;
+  left: auto;
+}
+.cats .wrap .swiper-container {
+  width: 860px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.cats .wrap .swiper-wrapper {
+  width: 4000px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+}
+.cats .wrap .swiper-wrapper .swiper-slide {
+  float: left;
+}
+.cats .pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -234px;
+  z-index: 1001;
+}
+.cats .pagination i {
+  float: left;
+  height: 32px;
+  width: 152px;
+  margin-right: 4px;
+  text-align: center;
+  line-height: 32px;
+  background-color: #2e2c2d;
+  color: #ffffff;
+  cursor: pointer;
+}
+.cats .pagination .btn {
+  background-color: #b4b4b4;
+  color: #444444;
+}
+.list {
+  padding: 70px 0 30px 0;
+  overflow: hidden;
+  clear: both;
+  background-color: #222222;
+}
+.list .wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.list .ls {
+  clear: both;
+}
+.list .ls .item {
+  width: 400px;
+  margin: 0 0 40px 0;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.list .ls .item .icon {
+  height: 53px;
+  padding-left: 15px;
+}
+.list .ls .item .config {
+  width: 360px;
+  margin: 0 auto;
+}
+.list .ls .item .config h3 {
+  color: #dfdfdf;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 10px;
+  line-height: 150%;
+}
+.list .ls .item .config .price {
+  font-size: 24px;
+  color: #ce1125;
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+}
+.list .ls .item .config .price div {
+  float: left;
+}
+.list .ls .item .config .price del {
+  float: right;
+  height: 24px;
+  line-height: 24px;
+  color: #666666;
+  font-size: 16px;
+  padding: 0 5px;
+}
+.list .ls .item .config .price .buy {
+  padding: 2px 0;
+}
+.list .ls .item .config .price .buy a {
+  float: left;
+  margin-right: 15px;
+  font-size: 16px;
+  color: #dfdfdf;
+}
+.list .ls .item .config .price .buy a img {
+  display: block;
+  border: none;
+}
+.list .ls .item .config .gift {
+  margin-bottom: 20px;
+  height: 60px;
+}
+.list .ls .item .config .wen {
+  font-size: 14px;
+  color: #dfdfdf;
+  height: 32px;
+}
+.more {
+  width: 100%;
+  height: 502px;
+  background: url(../img/官网首页图片/ia_200000129.jpg) no-repeat center center;
+}
+.more .wrap {
+  height: 100%;
+}
+.more .wrap a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

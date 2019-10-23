@@ -1,0 +1,162 @@
+.banner {
+  height: 1020px;
+  background: url(../img/产品笔记本图片/ia_800000138.jpg) center center;
+  width: 100%;
+  position: relative;
+}
+.banner #video-btn {
+  width: 131px;
+  height: 131px;
+  position: absolute;
+  left: 50%;
+  margin-left: -65.5px;
+  top: 50%;
+  margin-top: -65.5px;
+  border-radius: 131px;
+}
+.banner #close {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  left: 95.5%;
+  z-index: 100;
+  background: url(../img/产品笔记本图片/X.jpg) -269px -81px;
+  display: none;
+}
+.banner video {
+  object-fit: fill;
+  position: absolute;
+  display: none;
+}
+.title {
+  height: 172px;
+  background: url(../img/产品笔记本图片/ia_800000141.jpg) center;
+}
+/* 商品轮播图 */
+.animations {
+  height: 275px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+  margin-top: 50px;
+}
+.animations div {
+  width: 1040px;
+  height: 275px;
+  position: absolute;
+  margin-left: 80px;
+}
+.animations div a {
+  display: block;
+  width: 260px;
+  height: 275px;
+  float: left;
+  background-color: #fffdfd;
+}
+.animations div a img {
+  position: absolute;
+  margin: 30px 0 0 45px ;
+}
+.animations div a p {
+  width: 260px;
+  position: absolute;
+  margin-top: 180px;
+  font-size: 15px;
+  color: #4c4cfa;
+  text-align: center;
+}
+.animations div a .money {
+  margin-top: 220px;
+  color: #3d3d3d;
+}
+.animations .com {
+  width: 80px;
+  height: 70px;
+  font-size: 100px;
+  color: #a9a9aa;
+  position: absolute;
+  text-align: center;
+  line-height: 59px;
+  margin-top: 90px;
+  display: none;
+}
+.animations .next {
+  margin-left: 1120px;
+}
+/*商品 */
+.shop ul {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.shop ul li {
+  width: 590px;
+  height: 600px;
+  background-color: white;
+  margin-top: 50px;
+  position: relative;
+}
+.shop ul li .shop-top {
+  width: 590px;
+  height: 530px;
+  position: absolute;
+}
+.shop ul li .shop-top a {
+  position: absolute;
+  width: 136px;
+  height: 38px;
+}
+.shop ul li .shop-top img {
+  position: absolute;
+}
+.shop ul li .shop-top .images-official {
+  z-index: 1;
+}
+.shop ul li .shop-top p {
+  position: absolute;
+  margin: 490px 0 0 87px;
+  font-size: 31px;
+  color: #ce1125;
+  z-index: 2;
+}
+.shop ul li .shop-top .cell {
+  margin: 410px 0 0 70px;
+}
+.shop ul li .shop-top .imgBuy {
+  margin: 540px 0 0 78px;
+}
+.shop ul li .shop-top .imgAllocation {
+  margin: 540px 0 0 260px;
+}
+.shop ul li .shop-bottom {
+  width: 590px;
+  height: 405px;
+  background-color: black;
+  position: absolute;
+  display: none;
+  color: white;
+}
+.shop ul li .shop-bottom h4,
+.shop ul li .shop-bottom h2 {
+  font-size: 20px;
+  margin: 100px  0 0 80px;
+  position: absolute;
+}
+.shop ul li .shop-bottom h2 {
+  font-size: 22px;
+  margin-top: 140px;
+}
+.shop ul li .shop-bottom p {
+  margin: 220px 0 0 80px;
+  font-size: 16px;
+}
+.benefits {
+  width: 100%;
+  background-color: black;
+  margin-top: 30px;
+}
+.benefits img {
+  display: block;
+  margin: 0 auto;
+}

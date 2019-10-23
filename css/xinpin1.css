@@ -1,0 +1,217 @@
+.alienware {
+  background: url(../img/AURORA_R9/ia_300000041.jpg) no-repeat center;
+  height: 600px;
+}
+body {
+  font-family: 'roboto', AlienwareRegular, Arial, Helvetica, sans-serif;
+  background-color: #F4F4F4;
+}
+.header .wrap > ul > li .new {
+  display: block;
+}
+.banner {
+  background: url(../img/AURORA_R9/R9-pd.jpg) no-repeat center;
+  height: 620px;
+}
+.banner .juhui {
+  height: 100%;
+  position: relative;
+}
+.banner .aitem {
+  width: 420px;
+  height: 267px;
+  position: absolute;
+  left: 13px;
+  top: 283px;
+  line-height: 180%;
+  font-size: 16px;
+}
+.banner .aitem span {
+  font-size: 48px;
+  line-height: 150%;
+}
+.banner .aitem .clearfix > a {
+  float: right;
+}
+.banner .aitem .clearfix > a img {
+  width: 132px;
+  height: 32px;
+  margin-top: 2px;
+}
+.banner .clearfix {
+  height: 110px;
+  width: 370px;
+  font-size: 32px;
+  line-height: 110px;
+  color: #CD1227;
+}
+.alwa51m {
+  height: 1015px;
+  background: url(../img/AURORA_R9/ia_300000045.jpg) no-repeat center;
+}
+.alwa51m .one {
+  width: 1197px;
+  height: 336px;
+  line-height: 150%;
+}
+.one .one-1 {
+  width: 275px;
+  height: 336px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 140px;
+}
+.one .one-2 {
+  width: 275px;
+  height: 336px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 140px;
+}
+.one .one-3 {
+  width: 275px;
+  height: 336px;
+  float: left;
+  margin-left: 140px;
+  margin-top: 140px;
+}
+.one-1 .content {
+  margin-top: 30px;
+  font-size: 13px;
+  text-align: center;
+}
+.one-2 .content {
+  margin-top: 30px;
+  font-size: 13px;
+  text-align: center;
+}
+.one-3 .content {
+  margin-top: 30px;
+  font-size: 13px;
+  text-align: center;
+}
+.one-1 .free img {
+  margin-top: 30px;
+  width: 220px;
+  height: 50px;
+}
+.one-2 .free img {
+  margin-top: 30px;
+  width: 220px;
+  height: 50px;
+}
+.one-3 .free img {
+  margin-top: 30px;
+  width: 220px;
+  height: 50px;
+}
+.one-1 .clearfix {
+  height: 110px;
+  font-size: 32px;
+  line-height: 76px;
+  color: #CD1227;
+}
+.one-2 .clearfix {
+  height: 110px;
+  font-size: 32px;
+  line-height: 76px;
+  color: #CD1227;
+}
+.one-3 .clearfix {
+  height: 110px;
+  font-size: 32px;
+  line-height: 76px;
+  color: #CD1227;
+}
+.app-one {
+  width: 100%;
+  height: 1285px;
+  background: url(../img/AURORA_R9/ia_300000046.jpg) no-repeat center;
+}
+.app-two {
+  width: 100%;
+  height: 1266px;
+  background: url(../img/AURORA_R9/ia_300000047.jpg) no-repeat center;
+}
+.app-three {
+  width: 100%;
+  height: 1512px;
+  background: url(../img/AURORA_R9/ia_300000048.jpg) no-repeat center;
+}
+.app-four {
+  width: 100%;
+  height: 1821px;
+  background: url(../img/AURORA_R9/ia_300000049.jpg) no-repeat center;
+}
+.app-five {
+  width: 100%;
+  height: 1702px;
+  background: url(../img/AURORA_R9/ia_300000050.jpg) no-repeat center;
+}
+.app-six {
+  width: 100%;
+  height: 1592px;
+  background: url(../img/AURORA_R9/ia_300000051.jpg) no-repeat center;
+}
+.app-seven {
+  width: 100%;
+  height: 1638px;
+  background: url(../img/AURORA_R9/ia_300000052.jpg) no-repeat center;
+}
+.app-eight {
+  width: 100%;
+  height: 1766px;
+  background: url(../img/AURORA_R9/ia_300000053.jpg) no-repeat center;
+}
+.app-nine {
+  width: 100%;
+  height: 1896px;
+  background: url(../img/AURORA_R9/ia_300000054.jpg) no-repeat center;
+}
+.app-ten {
+  width: 100%;
+  height: 1435px;
+  background: url(../img/AURORA_R9/ia_300000055.jpg) no-repeat center;
+}
+.sidebar .sidebarHb {
+  position: fixed;
+  right: 0;
+  bottom: 200px;
+  z-index: 1;
+}
+.sidebar .sidebarHb .btn1 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: -26px;
+  top: 14px;
+  background: url(../img/huge-benefits/ia_200000135.jpg) 0 -41px;
+}
+.sidebar .sidebarHb ul {
+  width: 213px;
+  height: 241px;
+  padding: 0 13px;
+  background: url(../img/huge-benefits/ia_200000134.jpg);
+}
+.sidebar .sidebarHb ul li {
+  height: 60px;
+}
+.sidebar .sidebarHb ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sidebar .sidebarHd {
+  background: url(../img/huge-benefits/ia_200000116.png);
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: fixed;
+  bottom: 22px;
+  right: 21px;
+  cursor: pointer;
+  display: none;
+}
+.footerBooton .content-2 .p-1 a {
+  text-decoration: underline;
+}

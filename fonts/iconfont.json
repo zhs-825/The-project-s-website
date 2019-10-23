@@ -1,0 +1,128 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "297630",
+      "name": "dell logo",
+      "font_class": "53005896bb410",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1216387",
+      "name": "提示",
+      "font_class": "icon",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "1733131",
+      "name": "i",
+      "font_class": "i",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "1792293",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "1839295",
+      "name": "头像",
+      "font_class": "touxiang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "2426827",
+      "name": "dell",
+      "font_class": "dell",
+      "unicode": "e506",
+      "unicode_decimal": 58630
+    },
+    {
+      "icon_id": "2741747",
+      "name": "右箭头",
+      "font_class": "arrow-fill-right",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "2807148",
+      "name": "右箭头",
+      "font_class": "arrfill_d-copy",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "3084828",
+      "name": "正确",
+      "font_class": "zhengque",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "3334615",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "3880895",
+      "name": "选中",
+      "font_class": "xuanzhong",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "4088981",
+      "name": "警告",
+      "font_class": "jinggao1",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "4266026",
+      "name": "正确",
+      "font_class": "correct",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "4374177",
+      "name": "国际站_选 中",
+      "font_class": "xuanzhong1",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "8235445",
+      "name": "未选中",
+      "font_class": "weixuanzhong",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "9516069",
+      "name": "正确",
+      "font_class": "zhengque_huaban",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "9923241",
+      "name": "选中",
+      "font_class": "xuanzhong2",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+.banner {
+  height: 600px;
+  margin: 0 auto;
+}
+.banner img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.Rotate {
+  height: 900px;
+  margin: 0 auto ;
+  background: url("../img/Area-51m图片/旋转木马背景.jpg");
+  overflow: hidden;
+  position: relative;
+}
+.Rotate .smallbox {
+  width: 380px;
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  margin-left: -190px;
+}
+.Rotate .smallbox li {
+  float: left;
+  width: 30px;
+  height: 5px;
+  margin-left: 17px;
+  background-color: #898f94;
+}
+#rotate {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+#rotate .slide {
+  height: 600px;
+  position: relative;
+}
+#rotate li {
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
+#rotate li img {
+  width: 100%;
+  height: 100%;
+}
+#rotate .left {
+  position: absolute;
+  width: 64px;
+  height: 128px;
+  left: 0;
+  top: 50%;
+  margin-top: -64px;
+  background: url(../img/Area-51m图片/button.png) no-repeat;
+  opacity: 0;
+  z-index: 99 ;
+}
+#rotate .right {
+  position: absolute;
+  width: 64px;
+  height: 128px;
+  right: 0;
+  top: 50%;
+  margin-top: -64px;
+  background: url(../img/Area-51m图片/button.png) no-repeat right;
+  opacity: 0;
+  z-index: 99 ;
+}
+#rotate .whiteText {
+  position: absolute;
+  letter-spacing: 40px;
+  opacity: 0;
+  top: 100px;
+  left: 50%;
+  color: #fff;
+  margin-left: -350px;
+  font-size: 60px;
+  z-index: 88;
+}
+.RXT20 {
+  height: 664px;
+  background: url("../img/Area-51m图片/rxt20.jpg");
+  margin: 0 auto;
+  position: relative;
+}
+.RXT20 .pctext {
+  position: absolute;
+  top: 235px;
+  left: 365px;
+  font-size: 16px;
+  color: #444444;
+}
+.RXT20 .pctext p {
+  margin-bottom: 16px;
+}
+.RXT20 .price {
+  position: absolute;
+  width: 365px;
+  height: 222px;
+  font-size: 34px;
+  color: #ce1125;
+  top: 362px;
+  left: 365px;
+}
+.RXT20 .price a {
+  float: right;
+}
+.RXT20 .price .pcbox1 {
+  margin-bottom: 60px;
+}
+.RXT20 .price .pcbox2 {
+  margin-bottom: 30px;
+}
+.price-list {
+  width: 1200px;
+  margin: 0 auto;
+}
+.photo {
+  margin: 0 auto;
+}
+.photo img {
+  width: 100%;
+}

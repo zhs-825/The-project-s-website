@@ -1,0 +1,712 @@
+.alienware {
+  background: url(../img/huge-benefits/ia_200000127.jpg) no-repeat center;
+  height: 600px;
+}
+body {
+  font-family: 'roboto', AlienwareRegular, Arial, Helvetica, sans-serif;
+  background-color: #F4F4F4;
+}
+.header .wrap .rightBar {
+  display: block;
+}
+.banner .juhui {
+  background: url(../img/huge-benefits/ia_200000128.jpg) no-repeat center;
+  height: 264px;
+}
+.banner .alwa51m-q748dw {
+  height: 779px;
+  background: url(../img/huge-benefits/ia_200000129.jpg) no-repeat center;
+  overflow: hidden;
+}
+.banner .alwa51m-q748dw .w .main .content {
+  margin-top: 150px;
+  font-size: 20px;
+  line-height: 38px;
+  width: 420px;
+  color: #444444;
+  margin-left: 41px;
+  position: relative;
+}
+.banner .alwa51m-q748dw .w .main .content i {
+  position: absolute;
+  font-size: 18px;
+  top: -5px;
+}
+.banner .alwa51m-q748dw .w .main .free {
+  display: block;
+  margin: 82px 0 0 41px;
+}
+.banner .alwa51m-q748dw .w .main p {
+  font-size: 50px;
+  color: #CE1125;
+  line-height: 94px;
+  display: block;
+  margin-left: 41px;
+  text-indent: -9px;
+}
+.banner .alwa51m-q748dw .w .main p span:first-child {
+  font-size: 40px;
+  float: left;
+}
+.banner .alwa51m-q748dw .w .main p span:last-child {
+  float: left;
+}
+.banner .alwa51m-q748dw .w .main .buy {
+  margin-top: 0;
+}
+.banner .alwa51m-q748dw .w .main .buy a:nth-child(1) img {
+  float: left;
+  width: 114px;
+  height: 32px;
+  margin-left: 41px;
+}
+.banner .alwa51m-q748dw .w .main .buy a:nth-child(2) img {
+  float: left;
+  width: 134px;
+  height: 32px;
+  margin-left: 35px;
+}
+.commodity {
+  padding: 55px 30px 100px;
+}
+.commodity .show li {
+  float: left;
+  width: 272px;
+  height: 620px;
+  background-color: #fff;
+  margin: 0 17px 15px 0;
+  overflow: hidden;
+  text-indent: 17px;
+  position: relative;
+}
+.commodity .show li .laptopImg {
+  float: left;
+}
+.commodity .show li span {
+  margin-top: 238px;
+  display: block;
+  color: #807CA5;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.commodity .show li .title {
+  height: 63px;
+  line-height: 31.5px;
+  font-size: 22px;
+  color: #2D2D2D;
+  text-indent: 0;
+  padding: 0 17px;
+  font-weight: 500;
+}
+.commodity .show li .content {
+  text-indent: 0;
+  padding: 0 15px;
+  line-height: 20px;
+  font-size: 13px;
+  height: 107px;
+  position: relative;
+}
+.commodity .show li .content i {
+  position: absolute;
+  font-size: 11px;
+  top: -5px;
+}
+.commodity .show li .service {
+  margin-left: 17px;
+}
+.commodity .show li p {
+  margin: 28px 0 18px 0;
+  font-size: 36px;
+  color: #CE1125;
+}
+.commodity .show li p del {
+  color: #666;
+  font-size: 16px;
+}
+.commodity .show li .buy {
+  margin-left: 17px;
+}
+.commodity .show li .buy a {
+  float: left;
+  text-indent: 0;
+  margin-right: 14px;
+}
+.commodity .show li .mgs {
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+.commodity .show li .mgs1 {
+  position: absolute;
+  bottom: 127px;
+  left: 17px;
+}
+.commodity .show li:nth-child(4n) {
+  margin-right: 0;
+}
+.commodity .show .height641 {
+  height: 641px;
+}
+.commodity .show .height641 .content {
+  height: 125px;
+}
+.aio .aioImg {
+  background: url(../img/huge-benefits/ia_200000130.jpg) no-repeat center;
+  height: 899px;
+}
+.aio .aioImg .w .main .tips {
+  margin-top: 204px;
+  margin-left: 41px;
+}
+.aio .aioImg .w .main .content {
+  margin-top: 10px;
+}
+.aio .aioImg .w .main p > del {
+  color: #666;
+  font-size: 16px;
+}
+.mainframe {
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+.mainframe .show li .content {
+  height: 157px;
+}
+.displayer {
+  height: 230px;
+  background: url(../img/huge-benefits/ia_200000131.jpg) no-repeat center;
+}
+.fittings .show li {
+  height: 474px;
+}
+.fittings .show li .laptopImg {
+  margin-bottom: 23px;
+}
+.fittings .show li .title1 {
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 120%;
+  text-indent: 0;
+  padding: 0 17px;
+}
+.fittings .show li .content1 {
+  height: 83px;
+  color: #666;
+  font-size: 16px;
+  line-height: 120%;
+  margin-left: 17px;
+  text-indent: 0;
+}
+.fittings .show li .height452 {
+  height: 61.4px;
+}
+.fittings .show li p del {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.fittings .show li p .left14 {
+  padding-left: 14px;
+}
+.rim {
+  background: url(../img/huge-benefits/ia_200000132.jpg) no-repeat center;
+  height: 735px;
+}
+.rim .rimImg .show {
+  padding: 203px 30px 133px;
+}
+.rim .rimImg .show li {
+  height: 400px;
+  width: 272px;
+  margin-right: 17px;
+  padding-left: 41px;
+  float: left;
+}
+.rim .rimImg .show li .title {
+  padding-top: 177px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.rim .rimImg .show li .content {
+  line-height: 22px;
+  font-size: 16px;
+  color: #807C7D;
+  height: 60px;
+}
+.rim .rimImg .show li p {
+  color: #CE1125;
+  position: relative;
+  height: 30px;
+}
+.rim .rimImg .show li p .frist {
+  position: absolute;
+  font-size: 25px;
+  left: -6px;
+  bottom: 3px;
+}
+.rim .rimImg .show li p .last {
+  position: absolute;
+  font-size: 28px;
+  left: 14px;
+}
+.rim .rimImg .show li .color {
+  margin-top: 13px;
+}
+.rim .rimImg .show li .color a {
+  float: left;
+}
+.rim .rimImg .show li .color .while {
+  margin-left: 26px;
+}
+.rim .rimImg .show .margin-right0 {
+  margin-right: 0;
+}
+.rgb000 {
+  background-color: #101010;
+}
+.rgb000 .offer-details {
+  background: url(../img/huge-benefits/ia_200000133.jpg) no-repeat center;
+  height: 502px;
+}
+.rgb000 .offer-details .ad {
+  height: 502px;
+  display: block;
+}
+.footerBar .wrap .rightBar {
+  position: relative;
+  padding-top: 2.5px;
+  height: 40px;
+}
+.footerBar .wrap .rightBar .country {
+  display: block;
+  line-height: 40px;
+}
+.footerBar .wrap .rightBar .country .drop-down-box {
+  float: right;
+  width: 14px;
+  margin: 14px 26px 18px 0;
+  height: 8px;
+  background: url(../img/huge-benefits/ia_200000137.jpg) 0 -36px;
+}
+.footerBar .wrap .rightBar .countrylist {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  height: 270px;
+  width: 250px;
+  padding: 0;
+  background-color: #fff;
+  overflow: auto;
+  display: none;
+}
+.footerBar .wrap .rightBar .countrylist li {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0;
+  width: 233px;
+  margin: 0;
+}
+.footerBar .wrap .rightBar .countrylist li a {
+  color: #444;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+}
+.sidebar .sidebarHb {
+  position: fixed;
+  right: 0;
+  bottom: 200px;
+  z-index: 1;
+}
+.sidebar .sidebarHb .btn1 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: -26px;
+  top: 14px;
+  background: url(../img/huge-benefits/ia_200000135.jpg) 0 -41px;
+}
+.sidebar .sidebarHb ul {
+  width: 213px;
+  height: 241px;
+  padding: 0 13px;
+  background: url(../img/huge-benefits/ia_200000134.jpg);
+}
+.sidebar .sidebarHb ul li {
+  height: 60px;
+}
+.sidebar .sidebarHb ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sidebar .sidebarHb ul .alienware {
+  background: url(../img/huge-benefits/ia_200000127.jpg) no-repeat center;
+  height: 600px;
+}
+.sidebar .sidebarHb ul body {
+  font-family: 'roboto', AlienwareRegular, Arial, Helvetica, sans-serif;
+  background-color: #F4F4F4;
+}
+.sidebar .sidebarHb ul .header .wrap .rightBar {
+  display: block;
+}
+.sidebar .sidebarHb ul .banner .juhui {
+  background: url(../img/huge-benefits/ia_200000128.jpg) no-repeat center;
+  height: 264px;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw {
+  height: 779px;
+  background: url(../img/huge-benefits/ia_200000129.jpg) no-repeat center;
+  overflow: hidden;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main .content {
+  margin-top: 150px;
+  font-size: 20px;
+  line-height: 38px;
+  width: 420px;
+  color: #444444;
+  margin-left: 41px;
+  position: relative;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main .content i {
+  position: absolute;
+  font-size: 18px;
+  top: -5px;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main .free {
+  display: block;
+  margin: 82px 0 0 41px;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main p {
+  font-size: 50px;
+  color: #CE1125;
+  line-height: 94px;
+  display: block;
+  margin-left: 41px;
+  text-indent: -9px;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main p span:first-child {
+  font-size: 40px;
+  float: left;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main p span:last-child {
+  float: left;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main .buy {
+  margin-top: 0;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main .buy a:nth-child(1) img {
+  float: left;
+  width: 114px;
+  height: 32px;
+  margin-left: 41px;
+}
+.sidebar .sidebarHb ul .banner .alwa51m-q748dw .w .main .buy a:nth-child(2) img {
+  float: left;
+  width: 134px;
+  height: 32px;
+  margin-left: 35px;
+}
+.sidebar .sidebarHb ul .commodity {
+  padding: 55px 30px 100px;
+}
+.sidebar .sidebarHb ul .commodity .show li {
+  float: left;
+  width: 272px;
+  height: 620px;
+  background-color: #fff;
+  margin: 0 17px 15px 0;
+  overflow: hidden;
+  text-indent: 17px;
+  position: relative;
+}
+.sidebar .sidebarHb ul .commodity .show li .laptopImg {
+  float: left;
+}
+.sidebar .sidebarHb ul .commodity .show li span {
+  margin-top: 238px;
+  display: block;
+  color: #807CA5;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+.sidebar .sidebarHb ul .commodity .show li .title {
+  height: 63px;
+  line-height: 31.5px;
+  font-size: 22px;
+  color: #2D2D2D;
+  text-indent: 0;
+  padding: 0 17px;
+  font-weight: 500;
+}
+.sidebar .sidebarHb ul .commodity .show li .content {
+  text-indent: 0;
+  padding: 0 15px;
+  line-height: 20px;
+  font-size: 13px;
+  height: 107px;
+  position: relative;
+}
+.sidebar .sidebarHb ul .commodity .show li .content i {
+  position: absolute;
+  font-size: 11px;
+  top: -5px;
+}
+.sidebar .sidebarHb ul .commodity .show li .service {
+  margin-left: 17px;
+}
+.sidebar .sidebarHb ul .commodity .show li p {
+  margin: 28px 0 18px 0;
+  font-size: 36px;
+  color: #CE1125;
+}
+.sidebar .sidebarHb ul .commodity .show li p del {
+  color: #666;
+  font-size: 16px;
+}
+.sidebar .sidebarHb ul .commodity .show li .buy {
+  margin-left: 17px;
+}
+.sidebar .sidebarHb ul .commodity .show li .buy a {
+  float: left;
+  text-indent: 0;
+  margin-right: 14px;
+}
+.sidebar .sidebarHb ul .commodity .show li .mgs {
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+.sidebar .sidebarHb ul .commodity .show li .mgs1 {
+  position: absolute;
+  bottom: 127px;
+  left: 17px;
+}
+.sidebar .sidebarHb ul .commodity .show li:nth-child(4n) {
+  margin-right: 0;
+}
+.sidebar .sidebarHb ul .commodity .show .height641 {
+  height: 641px;
+}
+.sidebar .sidebarHb ul .commodity .show .height641 .content {
+  height: 125px;
+}
+.sidebar .sidebarHb ul .aio .aioImg {
+  background: url(../img/huge-benefits/ia_200000130.jpg) no-repeat center;
+  height: 899px;
+}
+.sidebar .sidebarHb ul .aio .aioImg .w .main .tips {
+  margin-top: 204px;
+  margin-left: 41px;
+}
+.sidebar .sidebarHb ul .aio .aioImg .w .main .content {
+  margin-top: 10px;
+}
+.sidebar .sidebarHb ul .aio .aioImg .w .main p > del {
+  color: #666;
+  font-size: 16px;
+}
+.sidebar .sidebarHb ul .mainframe {
+  padding-top: 0;
+  padding-bottom: 40px;
+}
+.sidebar .sidebarHb ul .mainframe .show li .content {
+  height: 157px;
+}
+.sidebar .sidebarHb ul .displayer {
+  height: 230px;
+  background: url(../img/huge-benefits/ia_200000131.jpg) no-repeat center;
+}
+.sidebar .sidebarHb ul .fittings .show li {
+  height: 474px;
+}
+.sidebar .sidebarHb ul .fittings .show li .laptopImg {
+  margin-bottom: 23px;
+}
+.sidebar .sidebarHb ul .fittings .show li .title1 {
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 120%;
+  text-indent: 0;
+  padding: 0 17px;
+}
+.sidebar .sidebarHb ul .fittings .show li .content1 {
+  height: 83px;
+  color: #666;
+  font-size: 16px;
+  line-height: 120%;
+  margin-left: 17px;
+  text-indent: 0;
+}
+.sidebar .sidebarHb ul .fittings .show li .height452 {
+  height: 61.4px;
+}
+.sidebar .sidebarHb ul .fittings .show li p del {
+  font-size: 16px;
+  padding-left: 5px;
+}
+.sidebar .sidebarHb ul .fittings .show li p .left14 {
+  padding-left: 14px;
+}
+.sidebar .sidebarHb ul .rim {
+  background: url(../img/huge-benefits/ia_200000132.jpg) no-repeat center;
+  height: 735px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show {
+  padding: 203px 30px 133px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li {
+  height: 400px;
+  width: 272px;
+  margin-right: 17px;
+  padding-left: 41px;
+  float: left;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li .title {
+  padding-top: 177px;
+  font-size: 14px;
+  line-height: 16px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li .content {
+  line-height: 22px;
+  font-size: 16px;
+  color: #807C7D;
+  height: 60px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li p {
+  color: #CE1125;
+  position: relative;
+  height: 30px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li p .frist {
+  position: absolute;
+  font-size: 25px;
+  left: -6px;
+  bottom: 3px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li p .last {
+  position: absolute;
+  font-size: 28px;
+  left: 14px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li .color {
+  margin-top: 13px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li .color a {
+  float: left;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show li .color .while {
+  margin-left: 26px;
+}
+.sidebar .sidebarHb ul .rim .rimImg .show .margin-right0 {
+  margin-right: 0;
+}
+.sidebar .sidebarHb ul .rgb000 {
+  background-color: #101010;
+}
+.sidebar .sidebarHb ul .rgb000 .offer-details {
+  background: url(../img/huge-benefits/ia_200000133.jpg) no-repeat center;
+  height: 502px;
+}
+.sidebar .sidebarHb ul .rgb000 .offer-details .ad {
+  height: 502px;
+  display: block;
+}
+.sidebar .sidebarHb ul .footerBar .wrap .rightBar {
+  position: relative;
+  padding-top: 2.5px;
+  height: 40px;
+}
+.sidebar .sidebarHb ul .footerBar .wrap .rightBar .country {
+  display: block;
+  line-height: 40px;
+}
+.sidebar .sidebarHb ul .footerBar .wrap .rightBar .country .drop-down-box {
+  float: right;
+  width: 14px;
+  margin: 14px 26px 18px 0;
+  height: 8px;
+  background: url(../img/huge-benefits/ia_200000137.jpg) 0 -36px;
+}
+.sidebar .sidebarHb ul .footerBar .wrap .rightBar .countrylist {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  height: 270px;
+  width: 250px;
+  padding: 0;
+  background-color: #fff;
+  overflow: auto;
+  display: none;
+}
+.sidebar .sidebarHb ul .footerBar .wrap .rightBar .countrylist li {
+  font-size: 14px;
+  line-height: 25px;
+  padding: 0;
+  width: 233px;
+  margin: 0;
+}
+.sidebar .sidebarHb ul .footerBar .wrap .rightBar .countrylist li a {
+  color: #444;
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+}
+.sidebar .sidebarHb ul .sidebar .sidebarHb {
+  position: fixed;
+  right: 0;
+  bottom: 200px;
+  z-index: 1;
+}
+.sidebar .sidebarHb ul .sidebar .sidebarHb .btn1 {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  left: -26px;
+  top: 14px;
+  background: url(../img/huge-benefits/ia_200000135.jpg) 0 -41px;
+}
+.sidebar .sidebarHb ul .sidebar .sidebarHb ul {
+  width: 213px;
+  height: 241px;
+  padding: 0 13px;
+  background: url(../img/huge-benefits/ia_200000134.jpg);
+}
+.sidebar .sidebarHb ul .sidebar .sidebarHb ul li {
+  height: 60px;
+}
+.sidebar .sidebarHb ul .sidebar .sidebarHb ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.sidebar .sidebarHb ul .sidebar .sidebarHd {
+  background: url(../img/huge-benefits/ia_200000116.png);
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: fixed;
+  bottom: 22px;
+  right: 21px;
+  cursor: pointer;
+  display: none;
+}
+.sidebar .sidebarHb ul .footerBooton .content-2 .p-1 a {
+  text-decoration: underline;
+}
+.sidebar .sidebarHd {
+  background: url(../img/huge-benefits/ia_200000116.png);
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  position: fixed;
+  bottom: 22px;
+  right: 21px;
+  cursor: pointer;
+  display: none;
+}
+.footerBooton .content-2 .p-1 a {
+  text-decoration: underline;
+}

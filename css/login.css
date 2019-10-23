@@ -1,0 +1,492 @@
+.layout {
+  min-width: 475px;
+  width: 100%;
+  margin: 0 auto;
+}
+.layout .iconfont {
+  font-weight: normal;
+}
+.layout header {
+  height: 80px;
+  width: 100%;
+  background-color: #0085c3;
+}
+.layout header .content {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+.layout header .content .logo {
+  height: 100%;
+  padding: 20px 0 20px 10px;
+  float: left;
+}
+.layout header .content .logo h1 {
+  height: 100%;
+}
+.layout header .content .logo h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+}
+.layout header .content .logo h1 a .circle {
+  float: left;
+  font-size: 37px;
+  padding-right: 21px;
+  border-right: 1px solid #339dcf;
+}
+.layout header .content .logo h1 a .letter {
+  float: left;
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+.layout header .content .logo h1 a span {
+  float: left;
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 12px;
+}
+.layout main {
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+}
+.layout main .w {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+.layout main .w .content {
+  width: 100%;
+  border: 1px solid #dddddd;
+  margin-top: 20px;
+  position: relative;
+}
+.layout main .w .content .main-hd {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+.layout main .w .content .login,
+.layout main .w .content .enroll {
+  width: 569px;
+  color: #222;
+  padding: 25px 20px 20px 20px;
+}
+.layout main .w .content .login {
+  float: left;
+}
+.layout main .w .content .login-weChat {
+  margin-top: 25px;
+}
+.layout main .w .content .login-weChat .weChat {
+  font-size: 40px;
+  color: #228b22;
+}
+.layout main .w .content .main-bd {
+  font-size: 14px;
+}
+.layout main .w .content .main-bd .notice {
+  width: 100%;
+  background-color: #ffffc9;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+.layout main .w .content .main-bd .notice i {
+  display: block;
+  color: #D74324;
+  font-size: 20px;
+  float: left;
+  margin-left: 10px;
+}
+.layout main .w .content .main-bd .notice div {
+  width: 450px;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 18px;
+  float: left;
+  margin: 0;
+}
+.layout main .w .content .main-bd input {
+  display: block;
+  width: 264px;
+  height: 34px;
+  border: 1px solid #dddddd;
+  padding-left: 10px;
+  margin: 15px 0;
+  border-radius: 3px;
+}
+.layout main .w .content .main-bd div {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.layout main .w .content .main-bd .password {
+  width: 264px;
+  height: 34px;
+  margin: 15px 0;
+  border-radius: 3px;
+  position: relative;
+}
+.layout main .w .content .main-bd .password input {
+  width: 223px;
+  height: 34px;
+  float: left;
+  border: 1px solid #dddddd;
+  border-right: none;
+  margin: 0;
+  border-radius: 0;
+}
+.layout main .w .content .main-bd .password button {
+  float: left;
+  height: 34px;
+  width: 39px;
+  border: none;
+  padding: 0;
+  border: 1px solid #dddddd;
+  background-color: #f0f3f5;
+  color: #007db8;
+}
+.layout main .w .content .main-bd i {
+  color: #ee7351;
+}
+.layout main .w .content .main-bd .warn {
+  font-size: 16px;
+  color: #007db8;
+}
+.layout main .w .content .main-bd .select {
+  font-style: 16px;
+  color: #a6a6a6;
+}
+.layout main .w .content .main-bd a {
+  color: #008cba;
+}
+.layout main .w .content .main-bd .forget-content {
+  display: none;
+}
+.layout main .w .content .main-bd #note {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 10px 0;
+}
+.layout main .w .content .main-bd #note span {
+  font-weight: 700;
+}
+.layout main .w .content .main-bd .btn-blue {
+  height: 34px;
+  border: none;
+  border-radius: 3px;
+  padding: 0 15px;
+  color: #fff;
+  background-color: #0f6eca;
+}
+.layout main .w .content .main-bd .btn-white {
+  border: none;
+  color: #007db8;
+  background: transparent;
+  margin-left: 5px;
+}
+.layout main .w .content .main-bd .btn-white i {
+  color: #0f6eca;
+  font-size: 14px;
+}
+.layout main .w .content .enroll {
+  float: right;
+  background-color: #eeeeee;
+}
+.layout main .w .content .pic {
+  width: 100px;
+  height: 58px;
+  background: url("../img/login/login-pic.jpg") no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: -80px;
+}
+.layout nav {
+  height: 55px;
+  width: 100%;
+  background-color: #eeeeee;
+  border-top: 1px solid #dcdcdc;
+}
+.layout nav .content {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+.layout nav .content ul {
+  height: 100%;
+  float: left;
+}
+.layout nav .content ul li {
+  float: left;
+}
+.layout nav .content ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  font-size: 14px;
+  color: #444444;
+  padding: 19px 10px;
+}
+.layout footer {
+  height: 115px;
+  width: 100%;
+  background-color: #007db8;
+}
+.layout footer .content {
+  width: 1140px;
+  height: 100%;
+  margin: 0 auto;
+}
+.layout footer .content ul {
+  height: 100%;
+  float: left;
+}
+.layout footer .content ul li {
+  float: left;
+}
+.layout footer .content ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  padding: 15px 10px;
+  margin-top: 10px;
+}
+.layout .fix {
+  width: 107px;
+  height: 39px;
+  border: 1px solid #fff;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  background-color: #007db8;
+  box-shadow: 0 0 6px #000;
+}
+.layout .fix a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  font-size: 16px;
+  line-height: 37px;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .layout .iconfont {
+    font-weight: normal;
+  }
+  .layout header .content {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout main {
+    min-height: 655px;
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  .layout main .w {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout main .w .content .main-hd {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .layout main .w .content .login,
+  .layout main .w .content .enroll {
+    width: 484px;
+  }
+  .layout main .w .content .login {
+    float: left;
+  }
+  .layout main .w .content .main-bd {
+    font-size: 14px;
+  }
+  .layout main .w .content .main-bd .notice div {
+    width: 370px;
+  }
+  .layout main .w .content .main-bd input {
+    width: 259px;
+  }
+  .layout main .w .content .main-bd .password {
+    width: 259px;
+  }
+  .layout main .w .content .main-bd .password input {
+    width: 218px;
+  }
+  .layout nav .content {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout footer .content {
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout footer .content ul li a {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .layout header .content {
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout main .w {
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout main .w .content {
+    border: none;
+  }
+  .layout main .w .content .main-hd {
+    font-size: 24px;
+  }
+  .layout main .w .content .login,
+  .layout main .w .content .enroll {
+    width: 100%;
+    float: none;
+  }
+  .layout main .w .content .main-bd {
+    font-size: 12px;
+  }
+  .layout main .w .content .main-bd input {
+    width: 710px;
+  }
+  .layout main .w .content .main-bd .notice div {
+    width: 600px;
+  }
+  .layout main .w .content .main-bd .password {
+    width: 710px;
+  }
+  .layout main .w .content .main-bd .password input {
+    width: 669px;
+  }
+  .layout main .w .content .main-bd .warn {
+    font-size: 14px;
+  }
+  .layout main .w .content .main-bd .select {
+    font-size: 14px;
+  }
+  .layout main .w .content .main-bd .creat,
+  .layout main .w .content .main-bd .cancel {
+    width: 100%;
+    text-align: center;
+  }
+  .layout nav .content {
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .layout footer .content {
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .layout header .content {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .layout main .w {
+    width: 100%;
+  }
+  .layout main .w .content {
+    border: none;
+    width: 100%;
+  }
+  .layout main .w .content .main-hd {
+    font-size: 24px;
+  }
+  .layout main .w .content .login,
+  .layout main .w .content .enroll {
+    width: 100%;
+    float: none;
+  }
+  .layout main .w .content .main-bd {
+    font-size: 12px;
+  }
+  .layout main .w .content .main-bd input {
+    width: 100%;
+  }
+  .layout main .w .content .main-bd .notice div {
+    width: calc(100% - 110px);
+  }
+  .layout main .w .content .main-bd .password {
+    width: 100%;
+  }
+  .layout main .w .content .main-bd .password input {
+    width: calc(100% - 39px);
+  }
+  .layout main .w .content .main-bd .warn {
+    font-size: 14px;
+  }
+  .layout main .w .content .main-bd .select {
+    font-size: 14px;
+  }
+  .layout main .w .content .main-bd .creat,
+  .layout main .w .content .main-bd .cancel {
+    width: 100%;
+    text-align: center;
+  }
+  .layout nav {
+    height: 250px;
+    font-size: 12px;
+    width: 100%;
+  }
+  .layout nav .content {
+    width: 100%;
+  }
+  .layout nav .content ul {
+    width: 100%;
+    height: 100%;
+  }
+  .layout nav .content ul li {
+    width: 100%;
+    padding-left: 5px;
+  }
+  .layout nav .content ul li a {
+    width: 100%;
+    text-align: left;
+    padding: 14px 0;
+  }
+  .layout footer {
+    height: 432px;
+    width: 100%;
+  }
+  .layout footer .content {
+    width: 100%;
+  }
+  .layout footer .content ul {
+    height: 100%;
+    float: left;
+  }
+  .layout footer .content ul li {
+    width: 100%;
+    float: left;
+    height: 36px;
+    border-top: 1px solid #5cacd2;
+    padding-left: 5px;
+  }
+  .layout footer .content ul li a {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+  }
+}

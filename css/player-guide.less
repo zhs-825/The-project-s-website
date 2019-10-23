@@ -1,0 +1,480 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ablock {
+    display: block;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.banner {
+    height: 800px;
+    width: 100%;
+    background: url("../img/玩家攻略/main_bgc.jpg") no-repeat center;
+}
+
+.title {
+    height: 180px;
+    width: 100%;
+    background: url("../img/玩家攻略/大神开箱专区.jpg") no-repeat center;
+}
+
+
+// 大神开箱专区
+.sales {
+    width: 100%;
+    height: 490px;
+    background-color: #222222;
+
+    .w {
+        height: 100%;
+        background: url("../img/玩家攻略/sales.jpg") no-repeat center;
+
+        .left {
+            float: left;
+            width: 720px;
+            height: 100%;
+        }
+
+        .right {
+            float: left;
+            width: 480px;
+            height: 100%;
+
+            p {
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// 开箱专区的视频
+// 点击播放视频,视频窗口样式
+div.video {
+        position: fixed;
+        width: 800px;
+        height: 500px;
+        left: 50%;
+        margin-left: -400px;
+        top: 50%;
+        margin-top: -250px;
+        display: none;
+        z-index: 5;
+
+        embed {
+            height: 100%;
+            width: 100%;
+        }
+
+        span {
+            position: absolute;
+            height: 45px;
+            width: 45px;
+            right: -45px;
+            top: 0;
+            background: url("../img/玩家攻略/close.png") no-repeat center;
+        }
+}
+
+
+
+// 用户体验精选
+.exper {
+    height: 582px;
+    width: 100%;
+    background: url("../img/玩家攻略/userexper.jpg") no-repeat center;
+
+    .w {
+        height: 100%;
+        position: relative;
+
+        .left-arr {
+            margin-top: 100px;
+            float: left;
+            width: 100px;
+            height: 400px;
+            background: url(../img/玩家攻略/left_arrow.jpg) no-repeat center;
+            cursor: pointer;
+        }
+
+        .ex-bd {
+            width: 1000px;
+            height: 400px;
+            overflow: hidden;
+            position: absolute;
+            left: 100px;
+            bottom: 25px;
+
+            .move {
+                width: 3000px;
+                height: 100%;
+                position: absolute;
+
+                div {
+                     width: 333px;
+                     height: 100%;
+                     float: left;
+                     text-align: center;
+                 }
+            }
+        }
+
+        .right-arr {
+            margin-top: 100px;
+            float: right;
+            width: 100px;
+            height: 400px;
+            background: url(../img/玩家攻略/right_arrow.jpg) no-repeat center;
+            cursor: pointer;
+        }
+
+        .c-show {
+            background-color: rgba(0, 0, 0, .85);
+            height: 467px;
+            width: 1202px;
+            position: absolute;
+            left: -2px;
+            bottom: 19px;
+            z-index: 1;
+            display: none;
+
+            img {
+                position: absolute;
+                width: 552px;
+                height: 419px;
+                left: 50%;
+                margin-left: -276px;
+                top: 24px;
+            }
+            
+            span {
+                width: 30px;
+                height: 70px;
+                position: absolute;
+                right: 20px;
+                top: 20px;
+                color: white;
+                font-size: 45px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// 外星人m15
+.note-banner {
+    height: 340px;
+    width: 100%;
+    background-color: #222222;
+
+    #m15 {
+        height: 100%;
+        background: url("../img/玩家攻略/m15.jpg") no-repeat center;
+    }
+}
+
+// 外形玩家信仰
+.spirit {
+    width: 100%;
+    height: 170px;
+    background: url(../img/玩家攻略/信仰征集.jpg) no-repeat center;
+}
+
+.spirit-show {
+    height: 1357px;
+    width: 100%;
+    background-color: #141414;
+
+    .w {
+        height: 100%;
+        display: flex;
+        padding: 0 16px;
+        justify-content: space-between;
+
+        div {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            div {
+               cursor: pointer;
+            }
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            display: none;
+        }
+
+        .left {
+            width: 340px;
+
+            .p1 {
+                height: 388px;
+                background: url("../img/玩家攻略/letter_1.jpg") no-repeat;
+            }
+
+            .p2 {
+                height: 227px;
+                background: url("../img/玩家攻略/letter_2.jpg") no-repeat;
+            }
+
+            .p3 {
+                height: 227px;
+                background: url("../img/玩家攻略/letter_3.jpg") no-repeat;
+            }
+
+            .p4 {
+                height: 455px;
+                background: url("../img/玩家攻略/letter_4.jpg") no-repeat;
+            }
+        }
+
+        .mid {
+            width: 398px;
+
+            .p5 {
+                height: 265px;
+                background: url("../img/玩家攻略/letter_5.jpg") no-repeat;
+            }
+
+            .p6 {
+                height: 500px;
+                background: url("../img/玩家攻略/letter_6.jpg") no-repeat;
+            }
+
+            .p7 {
+                height: 266px;
+                background: url("../img/玩家攻略/letter_7.jpg") no-repeat;
+            }
+
+            .p8 {
+                height: 264px;
+                background: url("../img/玩家攻略/letter_8.jpg") no-repeat;
+            }
+        }
+
+        .right {
+            width: 400px;
+
+            .p9 {
+                height: 294px;
+                background: url("../img/玩家攻略/letter_9.jpg") no-repeat;
+            }
+
+            .p10 {
+                height: 267px;
+                background: url("../img/玩家攻略/letter_10.jpg") no-repeat;
+            }
+
+            .p11 {
+                height: 268px;
+                background: url("../img/玩家攻略/letter_11.jpg") no-repeat;
+            }
+
+            .p12 {
+                height: 467px;
+                background: url("../img/玩家攻略/letter_12.jpg") no-repeat;
+            }
+        }
+    }
+}
+
+// 信仰里点击看图和评论
+.see-big {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+    display: none;
+    top: 0;
+    background-color: #222222;
+    z-index: 6;
+
+    img {
+        height: 532.8px;
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 25px 16px;
+        line-height: 180%;
+        color: #fff;
+    }
+
+    span {
+        height: 45px;
+        width: 45px;
+        cursor: pointer;
+        position: absolute;
+        right: -45px;
+        top: 5px;
+        background: url("../img/玩家攻略/close.png") no-repeat center;
+    }
+}
+
+
+
+// m51游戏本
+.note-banner {
+    width: 100%;
+    height: 340px;
+    background-color: #141414;
+
+    .w {
+        height: 100%;
+        background: url("../img/玩家攻略/51m游戏本.jpg") no-repeat center;
+        position: relative;
+
+        p {
+            position: absolute;
+            width: 500px;
+            height: 48px;
+            right: 163px;
+            bottom: 60px;
+
+            span {
+                float: left;
+                font-size: 40px;
+                color: #ac1c20;
+            }
+
+            a {
+                float: right;
+                .ablock;
+                width: 170px;
+            }
+        }
+    }
+}
+
+
+// 资讯专区
+.news {
+    height: 170px;
+    width: 100%;
+    background: url("../img/玩家攻略/资讯专区.jpg") no-repeat center;
+}
+
+.news-show {
+    height: 1080px;
+    width: 100%;
+    background-color: #222222;
+
+    .w {
+        height: 100%;
+        position: relative;
+
+        ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding: 24px 10px;
+
+            li {
+                width: 580px;
+                height: 240px;
+                padding: 20px 27px;
+                position: relative;
+
+                .masked {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    background-color: rgba(0, 0, 0, .7);
+                }
+
+                h3 {
+                    font: bold 20px "";
+                    line-height: 60px;
+                    color: white;
+                    position: relative;
+                    z-index: 1;
+                }
+
+                P {
+                    font-size: 16px;
+                    line-height: 180%;
+                    color: #fff;
+                    position: relative;
+                    z-index: 1;
+                }
+
+                h2 {
+                    position: absolute;
+                    right: 33px;
+                    bottom: 26px;
+                    width: 65px;
+                    height: 16px;
+                    background: url("../img/玩家攻略/IT168.png") no-repeat left center;
+                    z-index: 1;
+                    font-weight: normal;
+
+                    span {
+                        margin-left: 25px;
+                        font-size: 16px;
+                        color: #fff;
+                    }
+                }
+
+                &:nth-child(1) {
+                    background: url("../img/玩家攻略/bot-p1.jpg") no-repeat center;
+                }
+
+                &:nth-child(2) {
+                    background: url("../img/玩家攻略/bot-p2.jpg") no-repeat center;
+                }
+
+                &:nth-child(3) {
+                    background: url("../img/玩家攻略/bot-p3.jpg") no-repeat center;
+                }
+
+                &:nth-child(4) {
+                    background: url("../img/玩家攻略/bot-p4.jpg") no-repeat center;
+                }
+
+                &:nth-child(5) {
+                    background: url("../img/玩家攻略/bot-p5.jpg") no-repeat center;
+                }
+
+                &:nth-child(6) {
+                    background: url("../img/玩家攻略/bot-p6.jpg") no-repeat center;
+                }
+
+                &:nth-child(7) {
+                    background: url("../img/玩家攻略/bot-p7.jpg") no-repeat center;
+
+                    h2 {
+                        width: 130px;
+                        right: 20px;
+                    }
+                }
+
+                &:nth-child(8) {
+                    background: url("../img/玩家攻略/bot-p8.jpg") no-repeat center;
+
+                    h2 {
+                        width: 130px;
+                        right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

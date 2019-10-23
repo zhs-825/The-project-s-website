@@ -1,0 +1,684 @@
+//版心
+.w(@size) {
+    width: @size;
+    height: 100%;
+    margin: 0 auto;
+}
+
+//a标签块级化
+.ablock() {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.layout {
+    min-width: 475px;
+    width: 100%;
+    margin: 0 auto;
+
+    .iconfont {
+        font-weight: normal;
+    }
+
+    header {
+        height: 80px;
+        width: 100%;
+        background-color: #0085c3;
+
+        .content {
+            .w(1140px);
+
+            .logo {
+                height: 100%;
+                padding: 20px 0 20px 10px;
+
+                float: left;
+
+                h1 {
+                    height: 100%;
+
+                    a {
+                        .ablock();
+                        color: #fff;
+
+                        .circle {
+                            float: left;
+                            font-size: 37px;
+
+                            padding-right: 21px;
+                            border-right: 1px solid #339dcf;
+
+                        }
+
+                        .letter {
+                            float: left;
+                            font-size: 14px;
+                            line-height: 40px;
+                            padding-left: 20px;
+
+                        }
+
+                        span {
+                            float: left;
+                            font-size: 16px;
+                            font-weight: normal;
+                            padding-top: 12px;
+                        }
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    main {
+        width: 100%;
+        background-color: #fff;
+        overflow: hidden;
+
+        .w {
+            .w(1140px);
+
+            .content {
+                width: 100%;
+                border: 1px solid #dddddd;
+                margin-top: 20px;
+                position: relative;
+
+                .main-hd {
+                    font-size: 28px;
+                    margin-bottom: 25px
+                }
+
+                .login,
+                .enroll {
+                    width: 569px;
+                    color: #222;
+                    padding: 25px 20px 20px 20px;
+                }
+
+                .login {
+                    float: left;
+                }
+
+                .login-weChat {
+                    margin-top: 25px;
+
+                    .weChat {
+                        font-size: 40px;
+                        color: #228b22;
+                    }
+                }
+
+                .main-bd {
+                    font-size: 14px;
+
+                    // 输入结束后判断输入的值---------------------------------------------------------
+                    // 输入的值不符合要求时显示-------------------------------------------------------
+                    .notice {
+                        width: 100%;
+                        background-color: #ffffc9;
+                        padding: 10px;
+                        margin-bottom: 20px;
+                        display: none;
+
+                        i {
+                            display: block;
+                            color: #D74324;
+                            font-size: 20px;
+                            float: left;
+                            margin-left: 10px;
+                        }
+
+                        div {
+                            width: 450px;
+                            padding-left: 20px;
+                            font-size: 14px;
+                            line-height: 18px;
+                            float: left;
+                            margin: 0;
+                        }
+                    }
+
+                    input {
+                        display: block;
+                        width: 264px;
+                        height: 34px;
+                        border: 1px solid #dddddd;
+                        padding-left: 10px;                        
+                        margin: 15px 0;
+                        border-radius: 3px;
+                    }
+
+                    div {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                    }
+
+                    .password {
+                        width: 264px;
+                        height: 34px;
+                        // border: 1px solid #dddddd;
+                        margin: 15px 0;
+                        border-radius: 3px;
+                        position: relative;
+
+                        input {
+                            width: 223px;
+                            height: 34px;
+                            float: left;
+                            border: 1px solid #dddddd;
+                            border-right: none;
+                            margin: 0;
+                            // border: none;
+                            border-radius: 0;
+                        }
+
+                        // 点击事件 -----------------------------------------------------------------
+                        // 点击中 出现向内的阴影------------------------------------------------------
+                        // 点击过后文本改变-----------------------------------------------------------
+                        button {
+                            float: left;
+                            height: 34px;
+                            width: 39px;
+                            border: none;
+                            padding: 0;
+                            border: 1px solid #dddddd;
+                            background-color: #f0f3f5;
+                            color: #007db8;
+                        }
+
+                        // //输入框获得焦点时显示  -----------------------------------------------------
+                        // //输入正确时更换字体图标-----------------------------------------------------
+                        // i {
+                        //     position: absolute;
+                        //     right: -30px;
+                        //     top: 10px;
+                        //     display: none;
+                        // }
+                    }
+
+                    i {
+                        color: #ee7351;
+                    }
+
+                    .warn {
+                        font-size: 16px;
+                        color: #007db8;
+                    }
+
+                    .select {
+                        font-style: 16px;
+                        color: #a6a6a6;
+                    }
+
+                    a {
+                        color: #008cba;
+                    }
+                    .forget-content{
+                        display: none;
+                    }
+
+                    #note {
+                        font-size: 14px;
+                        line-height: 18px;
+                        margin: 10px 0;
+
+                        span{
+                            font-weight: 700;
+                        }
+                    }
+
+                    .btn-blue {
+                        height: 34px;
+                        border: none;
+                        border-radius: 3px;
+                        padding: 0 15px;
+                        color: #fff;
+                        background-color: #0f6eca;
+                    }
+
+                    .btn-white {
+                        border: none;
+                        color: #007db8;
+                        background: transparent;
+                        margin-left: 5px;
+
+
+
+                        i {
+                            color: #0f6eca;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .enroll {
+                    float: right;
+                    background-color: #eeeeee;
+                }
+
+                .pic {
+                    width: 100px;
+                    height: 58px;
+                    background: url("../img/login/login-pic.jpg") no-repeat;
+                    position: absolute;
+                    right: 0;
+                    bottom: -80px;
+
+                }
+            }
+
+        }
+    }
+
+    nav {
+        height: 55px;
+        width: 100%;
+        background-color: #eeeeee;
+        border-top: 1px solid #dcdcdc;
+
+        .content {
+            .w(1140px);
+
+            ul {
+                height: 100%;
+                float: left;
+
+                li {
+                    float: left;
+
+                    a {
+                        .ablock();
+                        font-size: 14px;
+                        color: #444444;
+                        padding: 19px 10px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    footer {
+        height: 115px;
+        width: 100%;
+        background-color: #007db8;
+
+        .content {
+            .w(1140px);
+
+            ul {
+                height: 100%;
+                float: left;
+
+                li {
+                    float: left;
+
+                    a {
+                        .ablock();
+                        color: #fff;
+                        padding: 15px 10px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .fix {
+        width: 107px;
+        height: 39px;
+        border: 1px solid #fff;
+        position: fixed;
+        left: 10px;
+        bottom: 10px;
+        background-color: #007db8;
+        box-shadow: 0 0 6px #000;
+
+        a {
+            .ablock();
+            color: #fff;
+            font-size: 16px;
+            line-height: 37px;
+
+        }
+
+    }
+
+}
+
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .layout {
+
+        .iconfont {
+            font-weight: normal;
+        }
+
+        header {
+
+            .content {
+                .w(970px);
+            }
+        }
+
+        main {
+            // min-height有点小问题    待解决---------------------------------------------------------------
+
+            min-height: 655px;
+            width: 100%;
+            background-color: #fff;
+            overflow: hidden;
+
+            .w {
+                .w(970px);
+
+                .content {
+
+                    .main-hd {
+                        font-size: 26px;
+                        margin-bottom: 15px
+                    }
+
+                    .login,
+                    .enroll {
+                        width: 484px;
+                    }
+
+                    .login {
+                        float: left;
+                    }
+
+                    .main-bd {
+                        font-size: 14px;
+
+                        .notice {
+                            
+    
+                            div {
+                                width: 370px;
+                               
+                            }
+                        }
+                        input {
+                            width: 259px;
+                        }
+
+                        .password {
+                            width: 259px;
+
+                            input {
+                                width: 218px;
+                            }
+
+                        }
+
+
+                    }
+
+
+                }
+
+            }
+        }
+
+        nav {
+
+            .content {
+                .w(970px);
+            }
+
+        }
+
+        footer {
+
+            .content {
+                .w(970px);
+
+                ul {
+
+                    li {
+
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .layout {
+
+        header {
+
+            .content {
+                .w(750px);
+
+            }
+        }
+
+        main {
+
+            .w {
+                .w(750px);
+
+                .content {
+                    border: none;
+
+                    .main-hd {
+                        font-size: 24px;
+                    }
+
+                    .login,
+                    .enroll {
+                        width: 100%;
+                        float: none;
+                    }
+
+                    .main-bd {
+                        font-size: 12px;
+
+                        input {
+                            width: 710px;
+                        }
+                        .notice {
+    
+                            div {
+                                width: 600px;
+                               
+                            }
+                        }
+
+                        .password {
+                            width: 710px;
+
+                            input {
+                                width: 669px;
+                            }
+                        }
+
+                        .warn {
+                            font-size: 14px;
+                        }
+
+                        .select {
+                            font-size: 14px;
+                        }
+
+
+                        .creat,
+                        .cancel {
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
+        nav {
+
+            .content {
+                .w(750px);
+
+            }
+
+        }
+
+        footer {
+
+            .content {
+                .w(750px);
+
+            }
+        }
+
+    }
+}
+
+@media (max-width:767px) {
+    .layout {
+
+        header {
+            
+            .content {
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
+
+        main {
+
+            .w {
+                width: 100%;
+                
+
+
+                .content {
+                    border: none;
+                    width: 100%;
+
+                    .main-hd {
+                        font-size: 24px;
+                    }
+
+                    .login,
+                    .enroll {
+                        width: 100%;
+                        float: none;
+                    }
+
+                    .main-bd {
+                        font-size: 12px;
+
+                        input {
+                            width: 100%
+                        }
+
+                        .notice {
+                            div {
+                                width: calc(~'100% - 110px');
+                               
+                            }
+                        }
+
+                        .password {
+                            width: 100%;
+
+                            input {
+                                width: calc(~'100% - 39px');
+                            }
+                        }
+
+                        .warn {
+                            font-size: 14px;
+                        }
+
+                        .select {
+                            font-size: 14px;
+                        }
+
+
+                        .creat,
+                        .cancel {
+                            width: 100%;
+                            text-align: center;
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
+        nav {
+            height: 250px;
+            font-size: 12px;
+            width: 100%;
+            .content {
+                width: 100%;
+
+                ul {
+                    width: 100%;
+                    height: 100%;
+
+                    li {
+                        width: 100%;
+                        padding-left: 5px;
+
+                        a {
+                            width: 100%;
+                            text-align: left;
+                            padding: 14px 0;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        footer {
+            height: 432px;
+            width: 100%;
+
+            .content {
+                width: 100%;
+
+                ul {
+                    height: 100%;
+                    float: left;
+
+                    li {
+                        width: 100%;
+                        float: left;
+                        height: 36px;
+                        border-top: 1px solid #5cacd2;
+                        padding-left: 5px;
+
+                        a {
+                            width: 100%;
+                            padding: 0;
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+
+    }
+}
